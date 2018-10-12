@@ -4,7 +4,8 @@ var fs = require('fs');
 fs.readFile('./html/index.html', function (err, html) {
     if (err) {
         throw err; 
-    } 
+    }
+ };
 
 
 
